@@ -53,6 +53,8 @@ Validation:
   The assertion verifies that the getName method returns an empty string when the name is set as such. This is the expected result as the getName method should return the name set in the object, even if it is an empty string. This test is significant as it ensures that the getName method handles the scenario where the name is an empty string correctly.
 
 roost_feedback [4/4/2024, 10:18:24 AM]:Remove the comments
+
+roost_feedback [4/4/2024, 10:20:55 AM]:Remove the comments
 */
 
 // ********RoostGPT********
@@ -61,7 +63,6 @@ package com.codeforgeyt.airportcore.model;
 
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class PlaneDtoGetNameTest {
